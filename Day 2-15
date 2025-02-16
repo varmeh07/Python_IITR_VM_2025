@@ -1,0 +1,20 @@
+Base 10 to base n
+base=7
+num=14
+r=num%base
+q=num//base
+print(r)
+print(q)
+final=str(q)+str(r)
+print(final)
+
+Base 10 to base n
+org_base=10
+targ_base=7
+diff_base=org_base-targ_base
+num=21
+r=num%targ_base
+q=num//base
+print(r)
+final=q*7+r-diff_base
+print(final)
